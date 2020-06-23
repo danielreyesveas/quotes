@@ -1,0 +1,31 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+* {
+  margin: 0;
+}
+html {
+  height: 100%;
+}
+h1 {
+  font-weight: 100;
+  color: darkslategray;
+}
+body {
+  background-image: url(background.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: darkslategrey;
+  padding: 1rem;
+}
+
+
+#root {
+  width: 100%;
+}
